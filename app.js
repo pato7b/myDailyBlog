@@ -33,7 +33,7 @@ app.use((req, res, next) => {
 
 // routes
 app.get('/', (req, res) => {
-  res.redirect('/blogs');
+  res.send("it is here");
 });
 
 app.get('/about', (req, res) => {
